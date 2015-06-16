@@ -45,9 +45,9 @@ public class MainActivity extends FragmentActivity {
 
     public static final String TAG = "Basic Network Demo";
     // Whether there is a Wi-Fi connection.
-    private static boolean wifiConnected = false;
+    private static boolean wifiConnected = false; //와이파이 접속여부
     // Whether there is a mobile connection.
-    private static boolean mobileConnected = false;
+    private static boolean mobileConnected = false; //데이터 접속여부
 
     // Reference to the fragment showing events, so we can clear it with a button
     // as necessary.
