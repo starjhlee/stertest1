@@ -38,6 +38,9 @@ import com.example.android.common.logger.MessageOnlyLogFilter;
  * This sample uses the logging framework to display log output in the log
  * fragment (LogFragment).
  */
+
+// 무슨 네트워크로 접속되어있는지 알려주는 앱이다......
+
 public class MainActivity extends FragmentActivity {
 
     public static final String TAG = "Basic Network Demo";
