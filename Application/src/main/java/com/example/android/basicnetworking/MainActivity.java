@@ -93,6 +93,10 @@ public class MainActivity extends FragmentActivity {
      * Check whether the device is connected, and if so, whether the connection
      * is wifi or mobile (it could be something else).
      */
+
+    /*
+        장치가 연결되어 있는지 여부를 확인하고, 만약 그렇다면, 와이파이 연결 또는 모바일 무선인지 확인한다. (그것은 다른 것이 될 수있다).
+     */
     private void checkNetworkConnection() {
       // BEGIN_INCLUDE(connect)
       ConnectivityManager connMgr =
