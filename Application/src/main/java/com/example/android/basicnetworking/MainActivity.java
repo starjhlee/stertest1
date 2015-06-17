@@ -128,10 +128,13 @@ public class MainActivity extends FragmentActivity {
     }
 
     /** Create a chain of targets that will receive log data */
+    /* 로그 데이터를 수신 할 대상의 체인 만들기 */
     public void initializeLogging() {
 
         // Using Log, front-end to the logging chain, emulates
         // android.util.log method signatures.
+        // 로깅 체인에 로그, 프런트 엔드를 사용하여 메소드 시그니쳐(오버로드 된 메소드, 메소드 이름과 파라미터 변수의 수 , 타입,
+        // 순서를 묶어서 메소드 시그니쳐라고 부름)를 android.util.log에 에뮬레이트합니다.
 
         // Wraps Android's native log framework
         LogWrapper logWrapper = new LogWrapper();
