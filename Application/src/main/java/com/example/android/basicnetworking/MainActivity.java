@@ -136,10 +136,12 @@ public class MainActivity extends FragmentActivity {
         Log.setLogNode(logWrapper);
 
         // A filter that strips out everything except the message text.
+        // 메시지 텍스트 이외의 모든것을 제거하는 필터
         MessageOnlyLogFilter msgFilter = new MessageOnlyLogFilter();
         logWrapper.setNext(msgFilter);
 
         // On screen logging via a fragment with a TextView.
+        // 텍스트 뷰와 프래그먼트를 통해 화면 로깅
         mLogFragment =
                 (LogFragment) getSupportFragmentManager().findFragmentById(R.id.log_fragment);
         msgFilter.setNext(mLogFragment.getLogView());
