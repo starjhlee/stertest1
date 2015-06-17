@@ -49,12 +49,15 @@ public class MainActivity extends FragmentActivity {
 
     public static final String TAG = "Basic Network Demo";
     // Whether there is a Wi-Fi connection.
-    private static boolean wifiConnected = false; //와이파이 접속여부
+    // Wi-Fi 연결이 있는지 여부
+    private static boolean wifiConnected = false;
     // Whether there is a mobile connection.
-    private static boolean mobileConnected = false; //데이터 접속여부
+    // 모바일 연결이 있는지 여부
+    private static boolean mobileConnected = false;
 
     // Reference to the fragment showing events, so we can clear it with a button
     // as necessary.
+    // 이벤트를 보여주는 프래그먼트를 참조, 그래서 우리는 필요에 따라 클리어 버튼을 누를 수 있다.
     private LogFragment mLogFragment;
 
     @Override
@@ -63,12 +66,14 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.sample_main);
 
         // Initialize text fragment that displays intro text.
+        // 인트로 텍스트를 표시하는 프래그먼트를 초기화
         SimpleTextFragment introFragment = (SimpleTextFragment)
                     getSupportFragmentManager().findFragmentById(R.id.intro_fragment);
         introFragment.setText(R.string.intro_message);
         introFragment.getTextView().setTextSize(TypedValue.COMPLEX_UNIT_DIP, 16.0f);
 
         // Initialize the logging framework.
+        // 로깅 프레임워크를 초기화
         initializeLogging();
     }
 
