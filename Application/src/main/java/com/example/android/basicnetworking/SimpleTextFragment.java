@@ -30,19 +30,28 @@ import android.widget.TextView;
  * Simple fragment containing only a TextView. Used by TextPagerAdapter to create
  * tutorial-style pages for apps.
  */
+
+/*
+    단지 텍스트 뷰를 포함하는 간단한 프래그먼트.
+    애플리케이션을 위한 튜토리얼 스타일의 페이지를 만들 수 있는 TextPagerAdapter를 사용합니다.
+ */
 public class SimpleTextFragment extends Fragment {
 
     // Contains the text that will be displayed by this Fragment
+    // 이 프래그먼트에 표시되는 텍스트를 포함
     String mText;
 
     // Contains a resource ID for the text that will be displayed by this fragment.
+    // 이 프래그먼트에 표시되는 텍스트에 대한 리소스 ID를 포함
     int mTextId = -1;
 
     // Keys which will be used to store/retrieve text passed in via setArguments.
+    // setArguments를 통해 전달 된 텍스트를 저장/검색 하는 데 사용되는 키
     public static final String TEXT_KEY = "text";
     public static final String TEXT_ID_KEY = "text_id";
 
     // For situations where the app wants to modify text at Runtime, exposing the TextView.
+    // 상황에 따라 앱은 텍스트뷰를 공개하여 실행중에 텍스트를 수정하기를 원한다         ?
     private TextView mTextView;
 
     public SimpleTextFragment() {
