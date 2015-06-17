@@ -87,10 +87,12 @@ public class MainActivity extends FragmentActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             // When the user clicks TEST, display the connection status.
+            // 유저가 TEST를 클릭할때, 연결상태 표시
             case R.id.test_action:
                 checkNetworkConnection();
                 return true;
             // Clear the log view fragment.
+            // 로그 뷰 프래그먼트를 클리어
             case R.id.clear_action:
                 mLogFragment.getLogView().setText("");
                 return true;
