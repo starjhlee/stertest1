@@ -24,9 +24,14 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/basicnetworking/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33685923">
-              <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
-              <folding />
+            <state vertical-scroll-proportion="0.3807974">
+              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+              <folding>
+                <element signature="e#2490#2512#0" expanded="true" />
+                <element signature="e#4007#4042#0" expanded="true" />
+                <element signature="e#4109#4146#0" expanded="true" />
+                <element signature="e#4197#4234#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1460,9 +1465,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/basicnetworking/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33685923">
-          <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
-          <folding />
+        <state vertical-scroll-proportion="0.3807974">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+          <folding>
+            <element signature="e#2490#2512#0" expanded="true" />
+            <element signature="e#4007#4042#0" expanded="true" />
+            <element signature="e#4109#4146#0" expanded="true" />
+            <element signature="e#4197#4234#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
