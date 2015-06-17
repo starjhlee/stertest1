@@ -39,15 +39,19 @@ import com.example.android.common.logger.MessageOnlyLogFilter;
  * fragment (LogFragment).
  */
 
-// 무슨 네트워크로 접속되어있는지 알려주는 앱이다......
+/*
+    장치가 연결되어 있는지 만약 연결되어 있다면 연결이 와이파이 또는 모바일 인지 여부를 테스트하는 방법을 보여주는 샘플 응용 프로그램 (그것은 다른 뭔가를 할 수있다).
+
+    이 샘플은 log fragment(LogFragment)에 로그 출력을 표시 할 수있는 로깅 프레임 워크를 사용합니다.
+*/
 
 public class MainActivity extends FragmentActivity {
 
     public static final String TAG = "Basic Network Demo";
     // Whether there is a Wi-Fi connection.
-    private static boolean wifiConnected = false;
+    private static boolean wifiConnected = false; //와이파이 접속여부
     // Whether there is a mobile connection.
-    private static boolean mobileConnected = false;
+    private static boolean mobileConnected = false; //데이터 접속여부
 
     // Reference to the fragment showing events, so we can clear it with a button
     // as necessary.
